@@ -46,3 +46,12 @@ for(let i =n; i<=n*10; i=i+n){
     console.log(i);
 }
 
+//Nested Loops;
+console.log("Nested loop");
+for(i = 1; i<=3; i++){
+    console.log(`Outer Loop, ${i}`)
+    for(j =1; j<=3; j++){
+        console.log(j);
+    }
+}
+
