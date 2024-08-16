@@ -56,3 +56,9 @@ for(i = 1; i<=3; i++){
 }
 
 //While Loop
+console.log("While loop")
+let x = 1;
+while(x <=5){
+    console.log(x);
+    x++;
+}
