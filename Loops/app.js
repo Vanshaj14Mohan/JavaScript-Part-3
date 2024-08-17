@@ -62,3 +62,15 @@ while(x <=5){
     console.log(x);
     x++;
 }
+
+
+//Break 
+console.log("Break Keyword")
+let a= 1;
+while(a <=5){
+    if(a == 3){
+        break;
+    }
+    console.log(a);
+    a++;
+}
