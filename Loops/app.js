@@ -75,7 +75,7 @@ while(a <=5){
     a++;
 }
 
-//for loops
+//for of loops
 let fruits = ["mango", "orange", "apple", "banana"];
 for(fruit of fruits){
     console.log(fruit);
@@ -83,4 +83,12 @@ for(fruit of fruits){
 
 for(char of "work"){
     console.log(char);
+}
+
+//nested for of loops
+let names = [["mango", "orange"], ["apple", "banana"]];
+for(data of names){
+    for(name of data){
+        console.log(name);
+    }
 }
