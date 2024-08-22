@@ -74,3 +74,13 @@ while(a <=5){
     console.log(a);
     a++;
 }
+
+//for loops
+let fruits = ["mango", "orange", "apple", "banana"];
+for(fruit of fruits){
+    console.log(fruit);
+}
+
+for(char of "work"){
+    console.log(char);
+}
