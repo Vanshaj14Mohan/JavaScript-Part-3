@@ -33,7 +33,7 @@ for(let i =0; i<numbs.length; i++){
 let students = [["Alex", 90], ["Matt", 92], ["George", 91]];
 for(let i =0 ; i<students.length; i++){
     console.log(`Info of students: #${i}`);
-    //for values
+    //for particular values 
     for(let j = 0; j<students[i].length; j++){
         console.log(students[i][j]);
     }
