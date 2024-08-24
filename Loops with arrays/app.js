@@ -22,7 +22,7 @@ for(i =0; i<fruits.length; i++){
 // }
 
 console.log("Nested arrays");
-let numbs = [["ab", "cd", "ef"], ["gh", "ij", "kl"]];
+let numbs = [["ab", "cd", "ef"], ["gh", "ij", "kl"], ["mn", "op", "qr"]];
 for(let i =0; i<numbs.length; i++){
     console.log(numbs[i]);
     for(let j =0; j<numbs[i].length; j++){
