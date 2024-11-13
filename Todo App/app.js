@@ -21,7 +21,7 @@ while(true){
         todo.push(new_task);
         console.log("Task added"); 
     }
-    else if (req == "delete"){
+    else if (req == "delete"){ //for delete
         let del_task = prompt("Enter the task you want to delete");
         todo.splice(del_task,1);
         console.log("Task deleted");
