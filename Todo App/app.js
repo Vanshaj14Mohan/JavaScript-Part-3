@@ -16,7 +16,7 @@ while(true){
         }
         console.log("-----------");
     }
-    else if (req == "add"){
+    else if (req == "add"){ //for adding
         let new_task = prompt("Enter the task you want to add");
         todo.push(new_task);
         console.log("Task added"); 
